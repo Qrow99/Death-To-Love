@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ece43ef50938bf42b301ed51e76354c, type: 3}
+  m_Name: JAY
+  m_EditorClassIdentifier: 
+  characterName: JAY
+  characterSpeed: 6
+  attackRange: 0.85
+  lightAtkDamage: 3
+  lightHitstun: 0.75
+  heavyAtkDamage: 3
+  heavyHitstun: 1
+  lightAtkCooldown: 1
+  heavyAtkCooldown: 0.5
+  slideCooldown: 3
+  hitParticleEmitter: {fileID: 3798439677663074714, guid: 95bece2da63f3e246b09057102589f53, type: 3}
+  slideEffect: {fileID: 474553784170896560, guid: b757af48d4017b245a57c8af215e1190, type: 3}
+  animatorController: {fileID: 9100000, guid: 64bf0633b8f5d0f449bbcf7fd9963fc5, type: 2}
+  defaultSprite: {fileID: -1399895758419769513, guid: f4fd04f2217587649951c42cabbedf70, type: 3}
+  portraitSprite: {fileID: 21300000, guid: 1444e44b930dcc94e90a44141d9cb7bb, type: 3}

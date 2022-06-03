@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - Edges
+  - Spawn
+  - LevelLoader
+  - Cmvcam
+  - Player2
+  - EnemySpawner
+  - Ground
+  - DialogueManager
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Enemy
+  - Player
+  - Destructable
+  - Bullet
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 3870145769
+    locked: 0
+  - name: Level
+    uniqueID: 1237784743
+    locked: 0
+  - name: Items
+    uniqueID: 3809063033
+    locked: 0
+  - name: Character
+    uniqueID: 3799915285
+    locked: 0

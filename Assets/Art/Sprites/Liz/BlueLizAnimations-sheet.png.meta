@@ -1,0 +1,924 @@
+fileFormatVersion: 2
+guid: f4fd04f2217587649951c42cabbedf70
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 132961751532610808
+    second: BlueLizAnimations-sheet_0
+  - first:
+      213: 2132736520042377307
+    second: BlueLizAnimations-sheet_1
+  - first:
+      213: 3623933562033093369
+    second: BlueLizAnimations-sheet_2
+  - first:
+      213: 9031616159924299151
+    second: BlueLizAnimations-sheet_3
+  - first:
+      213: 4023362018710415754
+    second: BlueLizAnimations-sheet_4
+  - first:
+      213: 2708607235616773252
+    second: BlueLizAnimations-sheet_5
+  - first:
+      213: -1399895758419769513
+    second: BlueLizAnimations-sheet_6
+  - first:
+      213: 8839791067530208528
+    second: BlueLizAnimations-sheet_7
+  - first:
+      213: 6983761990346556187
+    second: BlueLizAnimations-sheet_8
+  - first:
+      213: 5797200438828921972
+    second: BlueLizAnimations-sheet_9
+  - first:
+      213: 7711027247835135339
+    second: BlueLizAnimations-sheet_10
+  - first:
+      213: -796717625524400411
+    second: BlueLizAnimations-sheet_11
+  - first:
+      213: -3957016794601724764
+    second: BlueLizAnimations-sheet_12
+  - first:
+      213: -4240578456657828040
+    second: BlueLizAnimations-sheet_13
+  - first:
+      213: 1681198884138719240
+    second: BlueLizAnimations-sheet_14
+  - first:
+      213: 8072919705052960115
+    second: BlueLizAnimations-sheet_15
+  - first:
+      213: 6140181296246018784
+    second: BlueLizAnimations-sheet_16
+  - first:
+      213: -629941812398242557
+    second: BlueLizAnimations-sheet_17
+  - first:
+      213: 1404710679485323944
+    second: BlueLizAnimations-sheet_18
+  - first:
+      213: 1225065306363943184
+    second: BlueLizAnimations-sheet_19
+  - first:
+      213: 3336635645554383368
+    second: BlueLizAnimations-sheet_20
+  - first:
+      213: 1309133390500424784
+    second: BlueLizAnimations-sheet_21
+  - first:
+      213: 7975449013255275092
+    second: BlueLizAnimations-sheet_22
+  - first:
+      213: 760529957285979840
+    second: BlueLizAnimations-sheet_23
+  - first:
+      213: -7981189377599665083
+    second: BlueLizAnimations-sheet_24
+  - first:
+      213: 2028720703301430556
+    second: BlueLizAnimations-sheet_25
+  - first:
+      213: 2364329051310796407
+    second: BlueLizAnimations-sheet_26
+  - first:
+      213: 126678686970005149
+    second: BlueLizAnimations-sheet_27
+  - first:
+      213: 3697271899830709025
+    second: BlueLizAnimations-sheet_28
+  - first:
+      213: -6020569422222195712
+    second: BlueLizAnimations-sheet_29
+  - first:
+      213: 1627440282744310531
+    second: BlueLizAnimations-sheet_30
+  - first:
+      213: -9143567480785161102
+    second: BlueLizAnimations-sheet_31
+  - first:
+      213: 2640748155403588355
+    second: BlueLizAnimations-sheet_32
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BlueLizAnimations-sheet_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 202
+        width: 63
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f4a0d0320068d100800000000000000
+      internalID: 132961751532610808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueLizAnimations-sheet_1
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 202
+        width: 54
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b50f0a4b090099d10800000000000000
+      internalID: 2132736520042377307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueLizAnimations-sheet_2
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 202
+        width: 80
+        height: 59
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fa399ecf5cca4230800000000000000
+      internalID: 3623933562033093369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueLizAnimations-sheet_3
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 202
+        width: 59
+        height: 65
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8527ffbb0fb65d70800000000000000
+      internalID: 9031616159924299151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueLizAnimations-sheet_4
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 202
+        width: 58
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a896808707ad5d730800000000000000
+      internalID: 4023362018710415754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueLizAnimations-sheet_5
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 202
+        width: 39
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4849df21ee7e69520800000000000000
+      internalID: 2708607235616773252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueLizAnimations-sheet_6
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 109
+        width: 62
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75740d48932929ce0800000000000000
+      internalID: -1399895758419769513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueLizAnimations-sheet_7
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 109
+        width: 62
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0152fc4042f3daa70800000000000000
+      internalID: 8839791067530208528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueLizAnimations-sheet_8
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 109
+        width: 62
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b134b76578e4be060800000000000000
+      internalID: 6983761990346556187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueLizAnimations-sheet_9
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 109
+        width: 62
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 474f220951bc37050800000000000000
+      internalID: 5797200438828921972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueLizAnimations-sheet_10
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 109
+        width: 62
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6d32985d62130b60800000000000000
+      internalID: 7711027247835135339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueLizAnimations-sheet_11
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 109
+        width: 62
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ee43507a8d71f4f0800000000000000
+      internalID: -796717625524400411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueLizAnimations-sheet_12
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 109
+        width: 62
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a46283c03ad519c0800000000000000
+      internalID: -3957016794601724764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueLizAnimations-sheet_13
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 109
+        width: 62
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8376cb87c507625c0800000000000000
+      internalID: -4240578456657828040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueLizAnimations-sheet_14
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 109
+        width: 62
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8081fdd4a71d45710800000000000000
+      internalID: 1681198884138719240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueLizAnimations-sheet_15
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 109
+        width: 62
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 375dee713b5c80070800000000000000
+      internalID: 8072919705052960115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueLizAnimations-sheet_16
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 109
+        width: 62
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e2dd3b5b5e463550800000000000000
+      internalID: 6140181296246018784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueLizAnimations-sheet_17
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 109
+        width: 62
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30546da524ff147f0800000000000000
+      internalID: -629941812398242557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueLizAnimations-sheet_18
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 109
+        width: 62
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aa9be6abe88e7310800000000000000
+      internalID: 1404710679485323944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueLizAnimations-sheet_19
+      rect:
+        serializedVersion: 2
+        x: 1265
+        y: 109
+        width: 62
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0195a7cc76e400110800000000000000
+      internalID: 1225065306363943184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueLizAnimations-sheet_20
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 109
+        width: 62
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80adc2ef07c1e4e20800000000000000
+      internalID: 3336635645554383368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueLizAnimations-sheet_21
+      rect:
+        serializedVersion: 2
+        x: 1457
+        y: 109
+        width: 62
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05c6160f1e9fa2210800000000000000
+      internalID: 1309133390500424784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueLizAnimations-sheet_22
+      rect:
+        serializedVersion: 2
+        x: 1553
+        y: 109
+        width: 62
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 452025f2f9c7eae60800000000000000
+      internalID: 7975449013255275092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueLizAnimations-sheet_23
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 15
+        width: 62
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c6e21977f1fd8a00800000000000000
+      internalID: 760529957285979840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueLizAnimations-sheet_24
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 15
+        width: 62
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54c0d071c8e1d3190800000000000000
+      internalID: -7981189377599665083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueLizAnimations-sheet_25
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 15
+        width: 57
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1d23c42bb6772c10800000000000000
+      internalID: 2028720703301430556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueLizAnimations-sheet_26
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 15
+        width: 58
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77e2483deb8cfc020800000000000000
+      internalID: 2364329051310796407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueLizAnimations-sheet_27
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 15
+        width: 58
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d96c579389d02c100800000000000000
+      internalID: 126678686970005149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueLizAnimations-sheet_28
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 15
+        width: 58
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12b617334395f4330800000000000000
+      internalID: 3697271899830709025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueLizAnimations-sheet_29
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 15
+        width: 58
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0040ed24204a27ca0800000000000000
+      internalID: -6020569422222195712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueLizAnimations-sheet_30
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 15
+        width: 58
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30bc22a8054d59610800000000000000
+      internalID: 1627440282744310531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueLizAnimations-sheet_31
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 15
+        width: 58
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 274bcf722d58b1180800000000000000
+      internalID: -9143567480785161102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueLizAnimations-sheet_32
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 15
+        width: 57
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3035910c472d5a420800000000000000
+      internalID: 2640748155403588355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>C:\Users\andre\OneDrive\Desktop\SORT\COLLEGE\2022 SPRING\death-to-love\Death To Love Wwise\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\andre\OneDrive\Desktop\SORT\COLLEGE\2022 SPRING\death-to-love\Death To Love Wwise\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\andre\OneDrive\Desktop\SORT\COLLEGE\2022 SPRING\death-to-love\Death To Love Wwise\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\andre\OneDrive\Desktop\SORT\COLLEGE\2022 SPRING\death-to-love\Death To Love Wwise\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles>
+		<File Id="234525785" Language="SFX">
+			<ShortName>PUNK! female heys.wav</ShortName>
+			<Path>SFX\PUNK! female heys_D79FB2B7.wem</Path>
+		</File>
+		<File Id="329936664" Language="SFX">
+			<ShortName>PUNK 2 guitars.wav</ShortName>
+			<Path>SFX\PUNK 2 guitars_D79FB2B7.wem</Path>
+		</File>
+		<File Id="420150212" Language="SFX">
+			<ShortName>PUNK 2 bass.wav</ShortName>
+			<Path>SFX\PUNK 2 bass_D79FB2B7.wem</Path>
+		</File>
+		<File Id="520646364" Language="SFX">
+			<ShortName>NOOTRAL clean guitar.wav</ShortName>
+			<Path>SFX\NOOTRAL clean guitar_D79FB2B7.wem</Path>
+		</File>
+		<File Id="557414481" Language="SFX">
+			<ShortName>PUNK! vox.wav</ShortName>
+			<Path>SFX\PUNK! vox_D79FB2B7.wem</Path>
+		</File>
+		<File Id="579114496" Language="SFX">
+			<ShortName>PUNK 2 intro synth and beat.wav</ShortName>
+			<Path>SFX\PUNK 2 intro synth and beat_D79FB2B7.wem</Path>
+		</File>
+		<File Id="605100862" Language="SFX">
+			<ShortName>PUNK 2 main synth.wav</ShortName>
+			<Path>SFX\PUNK 2 main synth_D79FB2B7.wem</Path>
+		</File>
+		<File Id="710443860" Language="SFX">
+			<ShortName>NOOTRAL bass.wav</ShortName>
+			<Path>SFX\NOOTRAL bass_D79FB2B7.wem</Path>
+		</File>
+		<File Id="812315031" Language="SFX">
+			<ShortName>PUNK! drumz.wav</ShortName>
+			<Path>SFX\PUNK! drumz_D79FB2B7.wem</Path>
+		</File>
+		<File Id="881420876" Language="SFX">
+			<ShortName>NOOTRAL distorted guitar.wav</ShortName>
+			<Path>SFX\NOOTRAL distorted guitar_D79FB2B7.wem</Path>
+		</File>
+		<File Id="918823191" Language="SFX">
+			<ShortName>PUNK! basses.wav</ShortName>
+			<Path>SFX\PUNK! basses_D79FB2B7.wem</Path>
+		</File>
+		<File Id="1015998167" Language="SFX">
+			<ShortName>PUNK! guitars.wav</ShortName>
+			<Path>SFX\PUNK! guitars_D79FB2B7.wem</Path>
+		</File>
+		<File Id="1047774548" Language="SFX">
+			<ShortName>NOOTRAL drumz.wav</ShortName>
+			<Path>SFX\NOOTRAL drumz_D79FB2B7.wem</Path>
+		</File>
+		<File Id="1057653763" Language="SFX">
+			<ShortName>PUNK 2 drumz.wav</ShortName>
+			<Path>SFX\PUNK 2 drumz_D79FB2B7.wem</Path>
+		</File>
+	</StreamedFiles>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="133642231" Language="SFX" Hash="3627431872">
+			<ObjectPath>\SoundBanks\Default Work Unit\General</ObjectPath>
+			<ShortName>General</ShortName>
+			<Path>General.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1205999388" Name="Enemy_Death" ObjectPath="\Events\Default Work Unit\General\Enemy_Death" DurationType="OneShot" DurationMin="0.256198" DurationMax="0.433089">
+					<IncludedMemoryFiles>
+						<File Id="250759663" Language="SFX">
+							<ShortName>Guitar Grind.wav</ShortName>
+							<Path>SFX\Guitar Grind_5303326C.wem</Path>
+						</File>
+						<File Id="761998788" Language="SFX">
+							<ShortName>Guitar Grind.wav</ShortName>
+							<Path>SFX\Guitar Grind_65C9F79A.wem</Path>
+						</File>
+						<File Id="1032908192" Language="SFX">
+							<ShortName>Guitar Grind.wav</ShortName>
+							<Path>SFX\Guitar Grind_F2753435.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3609701047" Name="Enemy_Gun_Fire" ObjectPath="\Events\Default Work Unit\General\Enemy_Gun_Fire" DurationType="OneShot" DurationMin="0.676935" DurationMax="0.759834">
+					<IncludedMemoryFiles>
+						<File Id="334011976" Language="SFX">
+							<ShortName>Enemy_Gun_Fire.wav</ShortName>
+							<Path>SFX\Enemy_Gun_Fire_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1010055213" Name="Enemy_Hit" ObjectPath="\Events\Default Work Unit\General\Enemy_Hit" DurationType="OneShot" DurationMin="1.376739" DurationMax="1.764202">
+					<IncludedMemoryFiles>
+						<File Id="30503697" Language="SFX">
+							<ShortName>Impact Sound.wav</ShortName>
+							<Path>SFX\Impact Sound_B65B68E4.wem</Path>
+						</File>
+						<File Id="124425697" Language="SFX">
+							<ShortName>210904-Guitar_Broken_string_Notification.wav</ShortName>
+							<Path>SFX\210904-Guitar_Broken_string_Notification_10C4C929.wem</Path>
+						</File>
+						<File Id="247415911" Language="SFX">
+							<ShortName>117537-Plucking_a_muted_guitar_string_5.wav</ShortName>
+							<Path>SFX\117537-Plucking_a_muted_guitar_string_5_10C4C929.wem</Path>
+						</File>
+						<File Id="342062045" Language="SFX">
+							<ShortName>117531-Plucking_a_guitar_string_with_a_buzz_3.wav</ShortName>
+							<Path>SFX\117531-Plucking_a_guitar_string_with_a_buzz_3_10C4C929.wem</Path>
+						</File>
+						<File Id="382792587" Language="SFX">
+							<ShortName>53431-MUSICAL_ELECTRIC_GUITAR_DISTORTED_ACCENT_01.wav</ShortName>
+							<Path>SFX\53431-MUSICAL_ELECTRIC_GUITAR_DISTORTED_ACCENT_01_10C4C929.wem</Path>
+						</File>
+						<File Id="382986549" Language="SFX">
+							<ShortName>Impact Sound.wav</ShortName>
+							<Path>SFX\Impact Sound_FE2065B4.wem</Path>
+						</File>
+						<File Id="423851219" Language="SFX">
+							<ShortName>Firework Crackle 2.wav</ShortName>
+							<Path>SFX\Firework Crackle 2_BAE72A68.wem</Path>
+						</File>
+						<File Id="753066837" Language="SFX">
+							<ShortName>Impact Sound.wav</ShortName>
+							<Path>SFX\Impact Sound_738DDAD0.wem</Path>
+						</File>
+						<File Id="859938227" Language="SFX">
+							<ShortName>Impact Sound.wav</ShortName>
+							<Path>SFX\Impact Sound_45E03955.wem</Path>
+						</File>
+						<File Id="866964898" Language="SFX">
+							<ShortName>Firework Crackle 1.wav</ShortName>
+							<Path>SFX\Firework Crackle 1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2565870985" Name="Enemy_Melee_Attack" ObjectPath="\Events\Default Work Unit\General\Enemy_Melee_Attack" DurationType="OneShot" DurationMin="0.263312" DurationMax="0.505509">
+					<IncludedMemoryFiles>
+						<File Id="442883901" Language="SFX">
+							<ShortName>Whoosh 3.wav</ShortName>
+							<Path>SFX\Whoosh 3_10C4C929.wem</Path>
+						</File>
+						<File Id="859150910" Language="SFX">
+							<ShortName>Whoosh 1.wav</ShortName>
+							<Path>SFX\Whoosh 1_10C4C929.wem</Path>
+						</File>
+						<File Id="1038039954" Language="SFX">
+							<ShortName>Whoosh 2.wav</ShortName>
+							<Path>SFX\Whoosh 2_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1346280638" Name="Enemy_Taunt" ObjectPath="\Events\Default Work Unit\General\Enemy_Taunt" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="2772308904" Name="Game_Pause" ObjectPath="\Events\Default Work Unit\General\Game_Pause" DurationType="OneShot" DurationMin="1.75" DurationMax="1.75">
+					<IncludedMemoryFiles>
+						<File Id="527882259" Language="SFX">
+							<ShortName>Riff_2.wav</ShortName>
+							<Path>SFX\Riff_2_AD63D995.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<ActionSetState>
+						<ActionSetStateEntry Id="319258907" Name="Paused" ObjectPath="\States\Default Work Unit\PauseState\Paused"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="716833996" Name="Game_Start_Multi" ObjectPath="\Events\Default Work Unit\General\Game_Start_Multi" DurationType="OneShot" DurationMin="1.012048" DurationMax="1.012048">
+					<IncludedMemoryFiles>
+						<File Id="765803965" Language="SFX">
+							<ShortName>Riff_12.wav</ShortName>
+							<Path>SFX\Riff_12_BE8D1B03.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="512344028" Name="Game_Start_Solo" ObjectPath="\Events\Default Work Unit\General\Game_Start_Solo" DurationType="OneShot" DurationMin="1.012048" DurationMax="1.012048">
+					<IncludedMemoryFiles>
+						<File Id="765803965" Language="SFX">
+							<ShortName>Riff_12.wav</ShortName>
+							<Path>SFX\Riff_12_BE8D1B03.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1359982855" Name="Game_Unpause" ObjectPath="\Events\Default Work Unit\General\Game_Unpause" DurationType="OneShot" DurationMin="1.746347" DurationMax="2.529515">
+					<IncludedMemoryFiles>
+						<File Id="343358091" Language="SFX">
+							<ShortName>405690-BRLFX-GTRAC28-Grind_03.wav</ShortName>
+							<Path>SFX\405690-BRLFX-GTRAC28-Grind_03_10C4C929.wem</Path>
+						</File>
+						<File Id="527068274" Language="SFX">
+							<ShortName>405689-BRLFX-GTRAC27-Grind_02.wav</ShortName>
+							<Path>SFX\405689-BRLFX-GTRAC27-Grind_02_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<ActionSetState>
+						<ActionSetStateEntry Id="1365518790" Name="Unpaused" ObjectPath="\States\Default Work Unit\PauseState\Unpaused"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="2678230382" Name="Level1" ObjectPath="\Events\Default Work Unit\General\Level1" DurationType="Infinite">
+					<ReferencedStreamedFiles>
+						<File Id="234525785" Language="SFX">
+							<ShortName>PUNK! female heys.wav</ShortName>
+							<Path>SFX\PUNK! female heys_D79FB2B7.wem</Path>
+						</File>
+						<File Id="329936664" Language="SFX">
+							<ShortName>PUNK 2 guitars.wav</ShortName>
+							<Path>SFX\PUNK 2 guitars_D79FB2B7.wem</Path>
+						</File>
+						<File Id="420150212" Language="SFX">
+							<ShortName>PUNK 2 bass.wav</ShortName>
+							<Path>SFX\PUNK 2 bass_D79FB2B7.wem</Path>
+						</File>
+						<File Id="557414481" Language="SFX">
+							<ShortName>PUNK! vox.wav</ShortName>
+							<Path>SFX\PUNK! vox_D79FB2B7.wem</Path>
+						</File>
+						<File Id="579114496" Language="SFX">
+							<ShortName>PUNK 2 intro synth and beat.wav</ShortName>
+							<Path>SFX\PUNK 2 intro synth and beat_D79FB2B7.wem</Path>
+						</File>
+						<File Id="605100862" Language="SFX">
+							<ShortName>PUNK 2 main synth.wav</ShortName>
+							<Path>SFX\PUNK 2 main synth_D79FB2B7.wem</Path>
+						</File>
+						<File Id="812315031" Language="SFX">
+							<ShortName>PUNK! drumz.wav</ShortName>
+							<Path>SFX\PUNK! drumz_D79FB2B7.wem</Path>
+						</File>
+						<File Id="918823191" Language="SFX">
+							<ShortName>PUNK! basses.wav</ShortName>
+							<Path>SFX\PUNK! basses_D79FB2B7.wem</Path>
+						</File>
+						<File Id="1015998167" Language="SFX">
+							<ShortName>PUNK! guitars.wav</ShortName>
+							<Path>SFX\PUNK! guitars_D79FB2B7.wem</Path>
+						</File>
+						<File Id="1057653763" Language="SFX">
+							<ShortName>PUNK 2 drumz.wav</ShortName>
+							<Path>SFX\PUNK 2 drumz_D79FB2B7.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+					<ActionSetState>
+						<ActionSetStateEntry Id="1365518790" Name="Unpaused" ObjectPath="\States\Default Work Unit\PauseState\Unpaused"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="2898453" Name="Lose_Combo" ObjectPath="\Events\Default Work Unit\General\Lose_Combo" DurationType="OneShot" DurationMin="1.30175" DurationMax="1.737584">
+					<IncludedMemoryFiles>
+						<File Id="178976729" Language="SFX">
+							<ShortName>Untuned Chord (2).wav</ShortName>
+							<Path>SFX\Untuned Chord (2)_0AA3B32B.wem</Path>
+						</File>
+						<File Id="506294057" Language="SFX">
+							<ShortName>Untuned Chord (1).wav</ShortName>
+							<Path>SFX\Untuned Chord (1)_81C633B6.wem</Path>
+						</File>
+						<File Id="551118739" Language="SFX">
+							<ShortName>Untuned Chord (3).wav</ShortName>
+							<Path>SFX\Untuned Chord (3)_40E6966E.wem</Path>
+						</File>
+						<File Id="891612824" Language="SFX">
+							<ShortName>Untuned Chord (4).wav</ShortName>
+							<Path>SFX\Untuned Chord (4)_90036297.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2005704188" Name="Main_Menu" ObjectPath="\Events\Default Work Unit\General\Main_Menu" DurationType="Infinite">
+					<ReferencedStreamedFiles>
+						<File Id="520646364" Language="SFX">
+							<ShortName>NOOTRAL clean guitar.wav</ShortName>
+							<Path>SFX\NOOTRAL clean guitar_D79FB2B7.wem</Path>
+						</File>
+						<File Id="710443860" Language="SFX">
+							<ShortName>NOOTRAL bass.wav</ShortName>
+							<Path>SFX\NOOTRAL bass_D79FB2B7.wem</Path>
+						</File>
+						<File Id="881420876" Language="SFX">
+							<ShortName>NOOTRAL distorted guitar.wav</ShortName>
+							<Path>SFX\NOOTRAL distorted guitar_D79FB2B7.wem</Path>
+						</File>
+						<File Id="1047774548" Language="SFX">
+							<ShortName>NOOTRAL drumz.wav</ShortName>
+							<Path>SFX\NOOTRAL drumz_D79FB2B7.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+					<ActionSetState>
+						<ActionSetStateEntry Id="1365518790" Name="Unpaused" ObjectPath="\States\Default Work Unit\PauseState\Unpaused"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="2824512041" Name="Player_Attack" ObjectPath="\Events\Default Work Unit\General\Player_Attack" DurationType="OneShot" DurationMin="0.526933" DurationMax="1.003867">
+					<IncludedMemoryFiles>
+						<File Id="127551223" Language="SFX">
+							<ShortName>Barks.wav</ShortName>
+							<Path>SFX\Barks_9A075DFF.wem</Path>
+						</File>
+						<File Id="438435260" Language="SFX">
+							<ShortName>Barks.wav</ShortName>
+							<Path>SFX\Barks_FB41EE70.wem</Path>
+						</File>
+						<File Id="442883901" Language="SFX">
+							<ShortName>Whoosh 3.wav</ShortName>
+							<Path>SFX\Whoosh 3_10C4C929.wem</Path>
+						</File>
+						<File Id="759818775" Language="SFX">
+							<ShortName>Barks.wav</ShortName>
+							<Path>SFX\Barks_F2678CDD.wem</Path>
+						</File>
+						<File Id="859150910" Language="SFX">
+							<ShortName>Whoosh 1.wav</ShortName>
+							<Path>SFX\Whoosh 1_10C4C929.wem</Path>
+						</File>
+						<File Id="975639029" Language="SFX">
+							<ShortName>Barks.wav</ShortName>
+							<Path>SFX\Barks_43D24012.wem</Path>
+						</File>
+						<File Id="1038039954" Language="SFX">
+							<ShortName>Whoosh 2.wav</ShortName>
+							<Path>SFX\Whoosh 2_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2394582229" Name="Player_Dash" ObjectPath="\Events\Default Work Unit\General\Player_Dash" DurationType="OneShot" DurationMin="2." DurationMax="2.3125">
+					<IncludedMemoryFiles>
+						<File Id="251807525" Language="SFX">
+							<ShortName>Riff_4.wav</ShortName>
+							<Path>SFX\Riff_4_AC48B157.wem</Path>
+						</File>
+						<File Id="382762459" Language="SFX">
+							<ShortName>Riff_13.wav</ShortName>
+							<Path>SFX\Riff_13_CFC16FC0.wem</Path>
+						</File>
+						<File Id="962971716" Language="SFX">
+							<ShortName>flames 1.wav</ShortName>
+							<Path>SFX\flames 1_10C4C929.wem</Path>
+						</File>
+						<File Id="1001868305" Language="SFX">
+							<ShortName>flames 2.wav</ShortName>
+							<Path>SFX\flames 2_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3083087645" Name="Player_Death" ObjectPath="\Events\Default Work Unit\General\Player_Death" DurationType="OneShot" DurationMin="1.260466" DurationMax="1.669266">
+					<IncludedMemoryFiles>
+						<File Id="537474129" Language="SFX">
+							<ShortName>Barks.wav</ShortName>
+							<Path>SFX\Barks_627DFC08.wem</Path>
+						</File>
+						<File Id="1019994602" Language="SFX">
+							<ShortName>Barks.wav</ShortName>
+							<Path>SFX\Barks_E496FA4D.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<ActionSetState>
+						<ActionSetStateEntry Id="319258907" Name="Paused" ObjectPath="\States\Default Work Unit\PauseState\Paused"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="871813740" Name="Player_Hit" ObjectPath="\Events\Default Work Unit\General\Player_Hit" DurationType="OneShot" DurationMin="0.6132" DurationMax="1.">
+					<IncludedMemoryFiles>
+						<File Id="176878222" Language="SFX">
+							<ShortName>Barks.wav</ShortName>
+							<Path>SFX\Barks_3DBAC706.wem</Path>
+						</File>
+						<File Id="195225528" Language="SFX">
+							<ShortName>209197-EFX_SD_Punch_Bottom_02.wav</ShortName>
+							<Path>SFX\209197-EFX_SD_Punch_Bottom_02_10C4C929.wem</Path>
+						</File>
+						<File Id="246843340" Language="SFX">
+							<ShortName>209200-EFX_SD_Punch_Bottom_37.wav</ShortName>
+							<Path>SFX\209200-EFX_SD_Punch_Bottom_37_10C4C929.wem</Path>
+						</File>
+						<File Id="420700183" Language="SFX">
+							<ShortName>209198-EFX_SD_Punch_Bottom_09.wav</ShortName>
+							<Path>SFX\209198-EFX_SD_Punch_Bottom_09_10C4C929.wem</Path>
+						</File>
+						<File Id="423851219" Language="SFX">
+							<ShortName>Firework Crackle 2.wav</ShortName>
+							<Path>SFX\Firework Crackle 2_BAE72A68.wem</Path>
+						</File>
+						<File Id="474124968" Language="SFX">
+							<ShortName>90412-Body_impact_punch-BLASTWAVEFX-26313.wav</ShortName>
+							<Path>SFX\90412-Body_impact_punch-BLASTWAVEFX-26313_10C4C929.wem</Path>
+						</File>
+						<File Id="568026607" Language="SFX">
+							<ShortName>Barks.wav</ShortName>
+							<Path>SFX\Barks_6729F2A4.wem</Path>
+						</File>
+						<File Id="712124410" Language="SFX">
+							<ShortName>43368-IMPACT_BODY_QUICK_PUNCH_01.wav</ShortName>
+							<Path>SFX\43368-IMPACT_BODY_QUICK_PUNCH_01_10C4C929.wem</Path>
+						</File>
+						<File Id="866964898" Language="SFX">
+							<ShortName>Firework Crackle 1.wav</ShortName>
+							<Path>SFX\Firework Crackle 1_10C4C929.wem</Path>
+						</File>
+						<File Id="1063676852" Language="SFX">
+							<ShortName>Barks.wav</ShortName>
+							<Path>SFX\Barks_DB41C6C2.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="12010446" Name="UI_Button_Press" ObjectPath="\Events\Default Work Unit\General\UI_Button_Press" DurationType="OneShot" DurationMin="2.672696" DurationMax="2.672696">
+					<IncludedMemoryFiles>
+						<File Id="933698646" Language="SFX">
+							<ShortName>UI_Button_Press.wav</ShortName>
+							<Path>SFX\UI_Button_Press_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="164852777" Name="Player_Combo" ObjectPath="\Game Parameters\Default Work Unit\General\Player_Combo"/>
+				<GameParameter Id="1975356116" Name="Heat_Level" ObjectPath="\Game Parameters\Default Work Unit\General\Heat_Level"/>
+			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="319258907" Name="Paused" ObjectPath="\States\Default Work Unit\PauseState\Paused" GUID="{E99E8D2B-2680-4079-AA7B-AA24F9A317C3}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="1365518790" Name="Unpaused" ObjectPath="\States\Default Work Unit\PauseState\Unpaused" GUID="{543BF793-6929-4515-9AB6-DE6931DBD807}">
+					<States/>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX" Hash="2595209854">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<GameParameters>
+				<GameParameter Id="988953028" Name="SFXVolume" ObjectPath="\Game Parameters\Default Work Unit\Volume\SFXVolume"/>
+				<GameParameter Id="2346531308" Name="MusicVolume" ObjectPath="\Game Parameters\Default Work Unit\Volume\MusicVolume"/>
+				<GameParameter Id="2918011349" Name="MasterVolume" ObjectPath="\Game Parameters\Default Work Unit\Volume\MasterVolume"/>
+			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="3237031728" Name="PauseState" ObjectPath="\States\Default Work Unit\PauseState" GUID="{533A408D-B686-4E4B-B3E0-523EFA0A43E0}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\PauseState\None" GUID="{FF717785-27CA-49FB-86C9-8EB73012F611}"/>
+						<State Id="319258907" Name="Paused" ObjectPath="\States\Default Work Unit\PauseState\Paused" GUID="{E99E8D2B-2680-4079-AA7B-AA24F9A317C3}"/>
+						<State Id="1365518790" Name="Unpaused" ObjectPath="\States\Default Work Unit\PauseState\Unpaused" GUID="{543BF793-6929-4515-9AB6-DE6931DBD807}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

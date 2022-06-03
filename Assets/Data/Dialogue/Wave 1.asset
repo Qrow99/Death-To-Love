@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dfa07ca737740a48ab0c4793dae9310, type: 3}
+  m_Name: Wave 1
+  m_EditorClassIdentifier: 
+  dialogue:
+  - speaker: Rosie
+    line: 'Cheers everyone! To another successful gig! '
+    speakerImage: {fileID: 21300000, guid: 2ffa54b12887f364c82d3890bf343bb3, type: 3}
+  - speaker: Jay
+    line: And to good friends!
+    speakerImage: {fileID: 21300000, guid: d285c75ac7aa72b4ea29d6e06184c353, type: 3}
+  - speaker: Liz
+    line: And many more to come!
+    speakerImage: {fileID: 21300000, guid: 2ad59559d76fd834a95bf3c576b3abce, type: 3}
+  - speaker: 
+    line: '*DOOR TO BAR OPENS*'
+    speakerImage: {fileID: 21300000, guid: 1b7988b62e05a5749b889e3c527d9a8a, type: 3}
+  - speaker: Cops
+    line: Hey you!
+    speakerImage: {fileID: 21300000, guid: 1b7988b62e05a5749b889e3c527d9a8a, type: 3}
+  - speaker: Liz
+    line: Huh? Oh great, don't you have a donut shop to raid or something?
+    speakerImage: {fileID: 21300000, guid: 3138e396fef97174db1eb9b59cdec3d5, type: 3}
+  - speaker: Cops
+    line: We saw your performance, which one of you wrote the music?
+    speakerImage: {fileID: 21300000, guid: 1b7988b62e05a5749b889e3c527d9a8a, type: 3}
+  - speaker: Rosie
+    line: That was me, what about it?
+    speakerImage: {fileID: 21300000, guid: 2ffa54b12887f364c82d3890bf343bb3, type: 3}
+  - speaker: Cops
+    line: You are under arrest.
+    speakerImage: {fileID: 21300000, guid: 1b7988b62e05a5749b889e3c527d9a8a, type: 3}
+  - speaker: Rosie
+    line: The heck I am! I haven't done anything.
+    speakerImage: {fileID: 21300000, guid: 2ffa54b12887f364c82d3890bf343bb3, type: 3}
+  - speaker: Liz
+    line: Leave her alone will ya pig? We're in the middle of celebrating here.
+    speakerImage: {fileID: 21300000, guid: 3138e396fef97174db1eb9b59cdec3d5, type: 3}
+  - speaker: Jay
+    line: Yeah! Get away from my friends! I just made a toast to them!
+    speakerImage: {fileID: 21300000, guid: d285c75ac7aa72b4ea29d6e06184c353, type: 3}
+  - speaker: Cops
+    line: She's being charged with disturbing the peace, and slandering LOVELESS
+      Inc. Wanna add resisting arrest to that?
+    speakerImage: {fileID: 21300000, guid: 1b7988b62e05a5749b889e3c527d9a8a, type: 3}
+  - speaker: Liz
+    line: Of course, you're in LOVELESS' pocket...
+    speakerImage: {fileID: 21300000, guid: 3138e396fef97174db1eb9b59cdec3d5, type: 3}
+  - speaker: Liz
+    line: If you wanna be like that, let's add my boot to your ass!
+    speakerImage: {fileID: 21300000, guid: 3138e396fef97174db1eb9b59cdec3d5, type: 3}
