@@ -1,3 +1,10 @@
+Switch Group	ID	Name			Wwise Object Path	Notes
+	1975356116	Heat_Level			\Default Work Unit\Heat_Level	
+
+Switch	ID	Name	Switch Group			Notes
+	4191063435	Something	Heat_Level			
+	4248742144	Nothing	Heat_Level			
+
 State Group	ID	Name			Wwise Object Path	Notes
 	3237031728	PauseState			\Default Work Unit\PauseState	
 

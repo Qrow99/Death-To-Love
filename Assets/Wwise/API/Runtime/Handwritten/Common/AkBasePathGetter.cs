@@ -92,7 +92,7 @@ public partial class AkBasePathGetter
 		if (string.IsNullOrEmpty(sourcePlatformBasePath))
 		{
 			if (LogWarnings)
-				UnityEngine.Debug.LogErrorFormat("WwiseUnity: Could not find source folder for <{0}> platform. Did you remember to generate your banks?", platformName);
+				UnityEngine.Debug.LogWarningFormat("WwiseUnity: Could not find source folder for <{0}> platform. Did you remember to generate your banks?", platformName);
 
 			destinationPlatformBasePath = string.Empty;
 			return false;
@@ -102,7 +102,7 @@ public partial class AkBasePathGetter
 		if (string.IsNullOrEmpty(destinationPlatformBasePath))
 		{
 			if (LogWarnings)
-				UnityEngine.Debug.LogErrorFormat("WwiseUnity: Could not find destination folder for <{0}> platform", platformName);
+				UnityEngine.Debug.LogWarningFormat("WwiseUnity: Could not find destination folder for <{0}> platform", platformName);
 
 			return false;
 		}
@@ -251,7 +251,7 @@ public partial class AkBasePathGetter
 #else
 					var format = "WwiseUnity: Could not locate the SoundBanks in {0}. Did you make sure to copy them to the StreamingAssets folder?";
 #endif
-					UnityEngine.Debug.LogErrorFormat(format, tempSoundBankBasePath);
+					UnityEngine.Debug.LogWarningFormat(format, tempSoundBankBasePath);
 				}
 			}
 #endif

@@ -3,7 +3,7 @@
 	<RootPaths>
 		<ProjectRoot>C:\Users\andre\OneDrive\Desktop\SORT\COLLEGE\2022 SPRING\death-to-love\Death To Love Wwise\</ProjectRoot>
 		<SourceFilesRoot>C:\Users\andre\OneDrive\Desktop\SORT\COLLEGE\2022 SPRING\death-to-love\Death To Love Wwise\.cache\Mac\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\andre\OneDrive\Desktop\SORT\COLLEGE\2022 SPRING\death-to-love\Death To Love Wwise\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<SoundBanksRoot>C:\Users\andre\OneDrive\Desktop\SORT\COLLEGE\2022 SPRING\death-to-love-v2\Death-To-Love\Assets\StreamingAssets\Audio\GeneratedSoundBanks\Mac\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
 		<ExternalSourcesOutputRoot>C:\Users\andre\OneDrive\Desktop\SORT\COLLEGE\2022 SPRING\death-to-love\Death To Love Wwise\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
@@ -68,12 +68,12 @@
 	</StreamedFiles>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="133642231" Language="SFX" Hash="2669357359">
+		<SoundBank Id="133642231" Language="SFX" Hash="1085573990">
 			<ObjectPath>\SoundBanks\Default Work Unit\General</ObjectPath>
 			<ShortName>General</ShortName>
 			<Path>General.bnk</Path>
 			<IncludedEvents>
-				<Event Id="1205999388" Name="Enemy_Death" ObjectPath="\Events\Default Work Unit\General\Enemy_Death" DurationType="OneShot" DurationMin="0.256198" DurationMax="0.433089">
+				<Event Id="1205999388" Name="Enemy_Death" ObjectPath="\Events\Default Work Unit\General\Enemy_Death">
 					<IncludedMemoryFiles>
 						<File Id="250759663" Language="SFX">
 							<ShortName>Guitar Grind.wav</ShortName>
@@ -81,7 +81,7 @@
 						</File>
 						<File Id="761998788" Language="SFX">
 							<ShortName>Guitar Grind.wav</ShortName>
-							<Path>SFX\Guitar Grind_9FEB8865.wem</Path>
+							<Path>SFX\Guitar Grind_B6F6A951.wem</Path>
 						</File>
 						<File Id="1032908192" Language="SFX">
 							<ShortName>Guitar Grind.wav</ShortName>
@@ -89,7 +89,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3609701047" Name="Enemy_Gun_Fire" ObjectPath="\Events\Default Work Unit\General\Enemy_Gun_Fire" DurationType="OneShot" DurationMin="0.676935" DurationMax="0.759834">
+				<Event Id="3609701047" Name="Enemy_Gun_Fire" ObjectPath="\Events\Default Work Unit\General\Enemy_Gun_Fire">
 					<IncludedMemoryFiles>
 						<File Id="334011976" Language="SFX">
 							<ShortName>Enemy_Gun_Fire.wav</ShortName>
@@ -97,7 +97,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1010055213" Name="Enemy_Hit" ObjectPath="\Events\Default Work Unit\General\Enemy_Hit" DurationType="OneShot" DurationMin="1.376739" DurationMax="1.764202">
+				<Event Id="1010055213" Name="Enemy_Hit" ObjectPath="\Events\Default Work Unit\General\Enemy_Hit">
 					<IncludedMemoryFiles>
 						<File Id="30503697" Language="SFX">
 							<ShortName>Impact Sound.wav</ShortName>
@@ -141,7 +141,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2565870985" Name="Enemy_Melee_Attack" ObjectPath="\Events\Default Work Unit\General\Enemy_Melee_Attack" DurationType="OneShot" DurationMin="0.263312" DurationMax="0.505509">
+				<Event Id="2565870985" Name="Enemy_Melee_Attack" ObjectPath="\Events\Default Work Unit\General\Enemy_Melee_Attack">
 					<IncludedMemoryFiles>
 						<File Id="442883901" Language="SFX">
 							<ShortName>Whoosh 3.wav</ShortName>
@@ -157,8 +157,8 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1346280638" Name="Enemy_Taunt" ObjectPath="\Events\Default Work Unit\General\Enemy_Taunt" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
-				<Event Id="2772308904" Name="Game_Pause" ObjectPath="\Events\Default Work Unit\General\Game_Pause" DurationType="OneShot" DurationMin="1.75" DurationMax="1.75">
+				<Event Id="1346280638" Name="Enemy_Taunt" ObjectPath="\Events\Default Work Unit\General\Enemy_Taunt"/>
+				<Event Id="2772308904" Name="Game_Pause" ObjectPath="\Events\Default Work Unit\General\Game_Pause">
 					<IncludedMemoryFiles>
 						<File Id="527882259" Language="SFX">
 							<ShortName>Riff_2.wav</ShortName>
@@ -169,7 +169,7 @@
 						<ActionSetStateEntry Id="319258907" Name="Paused" ObjectPath="\States\Default Work Unit\PauseState\Paused"/>
 					</ActionSetState>
 				</Event>
-				<Event Id="716833996" Name="Game_Start_Multi" ObjectPath="\Events\Default Work Unit\General\Game_Start_Multi" DurationType="OneShot" DurationMin="1.012048" DurationMax="1.012048">
+				<Event Id="716833996" Name="Game_Start_Multi" ObjectPath="\Events\Default Work Unit\General\Game_Start_Multi">
 					<IncludedMemoryFiles>
 						<File Id="765803965" Language="SFX">
 							<ShortName>Riff_12.wav</ShortName>
@@ -177,7 +177,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="512344028" Name="Game_Start_Solo" ObjectPath="\Events\Default Work Unit\General\Game_Start_Solo" DurationType="OneShot" DurationMin="1.012048" DurationMax="1.012048">
+				<Event Id="512344028" Name="Game_Start_Solo" ObjectPath="\Events\Default Work Unit\General\Game_Start_Solo">
 					<IncludedMemoryFiles>
 						<File Id="765803965" Language="SFX">
 							<ShortName>Riff_12.wav</ShortName>
@@ -185,7 +185,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1359982855" Name="Game_Unpause" ObjectPath="\Events\Default Work Unit\General\Game_Unpause" DurationType="OneShot" DurationMin="1.746347" DurationMax="2.529515">
+				<Event Id="1359982855" Name="Game_Unpause" ObjectPath="\Events\Default Work Unit\General\Game_Unpause">
 					<IncludedMemoryFiles>
 						<File Id="343358091" Language="SFX">
 							<ShortName>405690-BRLFX-GTRAC28-Grind_03.wav</ShortName>
@@ -200,7 +200,7 @@
 						<ActionSetStateEntry Id="1365518790" Name="Unpaused" ObjectPath="\States\Default Work Unit\PauseState\Unpaused"/>
 					</ActionSetState>
 				</Event>
-				<Event Id="2678230382" Name="Level1" ObjectPath="\Events\Default Work Unit\General\Level1" DurationType="Infinite">
+				<Event Id="2678230382" Name="Level1" ObjectPath="\Events\Default Work Unit\General\Level1">
 					<ReferencedStreamedFiles>
 						<File Id="175764684" Language="SFX">
 							<ShortName>beginning synth line.wav</ShortName>
@@ -247,7 +247,7 @@
 						<ActionSetStateEntry Id="1365518790" Name="Unpaused" ObjectPath="\States\Default Work Unit\PauseState\Unpaused"/>
 					</ActionSetState>
 				</Event>
-				<Event Id="2898453" Name="Lose_Combo" ObjectPath="\Events\Default Work Unit\General\Lose_Combo" DurationType="OneShot" DurationMin="1.30175" DurationMax="1.737584">
+				<Event Id="2898453" Name="Lose_Combo" ObjectPath="\Events\Default Work Unit\General\Lose_Combo">
 					<IncludedMemoryFiles>
 						<File Id="178976729" Language="SFX">
 							<ShortName>Untuned Chord (2).wav</ShortName>
@@ -266,8 +266,19 @@
 							<Path>SFX\Untuned Chord (4)_C6381D74.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{5E7A419F-E285-44ED-BA2C-735FB23A0295}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{432BE9D0-A3C1-4E9E-837B-5C25AD7B152B}">
+							<Media>
+								<File Id="178976729"/>
+								<File Id="506294057"/>
+								<File Id="551118739"/>
+								<File Id="891612824"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
 				</Event>
-				<Event Id="2005704188" Name="Main_Menu" ObjectPath="\Events\Default Work Unit\General\Main_Menu" DurationType="Infinite">
+				<Event Id="2005704188" Name="Main_Menu" ObjectPath="\Events\Default Work Unit\General\Main_Menu">
 					<ReferencedStreamedFiles>
 						<File Id="257702748" Language="SFX">
 							<ShortName>Neutral Bass.wav</ShortName>
@@ -296,7 +307,7 @@
 						<ActionSetStateEntry Id="1365518790" Name="Unpaused" ObjectPath="\States\Default Work Unit\PauseState\Unpaused"/>
 					</ActionSetState>
 				</Event>
-				<Event Id="2824512041" Name="Player_Attack" ObjectPath="\Events\Default Work Unit\General\Player_Attack" DurationType="OneShot" DurationMin="0.526933" DurationMax="1.003867">
+				<Event Id="2824512041" Name="Player_Attack" ObjectPath="\Events\Default Work Unit\General\Player_Attack">
 					<IncludedMemoryFiles>
 						<File Id="127551223" Language="SFX">
 							<ShortName>Barks.wav</ShortName>
@@ -328,7 +339,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2394582229" Name="Player_Dash" ObjectPath="\Events\Default Work Unit\General\Player_Dash" DurationType="OneShot" DurationMin="2." DurationMax="2.3125">
+				<Event Id="2394582229" Name="Player_Dash" ObjectPath="\Events\Default Work Unit\General\Player_Dash">
 					<IncludedMemoryFiles>
 						<File Id="251807525" Language="SFX">
 							<ShortName>Riff_4.wav</ShortName>
@@ -348,7 +359,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3083087645" Name="Player_Death" ObjectPath="\Events\Default Work Unit\General\Player_Death" DurationType="OneShot" DurationMin="1.260466" DurationMax="1.669266">
+				<Event Id="3083087645" Name="Player_Death" ObjectPath="\Events\Default Work Unit\General\Player_Death">
 					<IncludedMemoryFiles>
 						<File Id="537474129" Language="SFX">
 							<ShortName>Barks.wav</ShortName>
@@ -363,7 +374,7 @@
 						<ActionSetStateEntry Id="319258907" Name="Paused" ObjectPath="\States\Default Work Unit\PauseState\Paused"/>
 					</ActionSetState>
 				</Event>
-				<Event Id="871813740" Name="Player_Hit" ObjectPath="\Events\Default Work Unit\General\Player_Hit" DurationType="OneShot" DurationMin="0.6132" DurationMax="1.">
+				<Event Id="871813740" Name="Player_Hit" ObjectPath="\Events\Default Work Unit\General\Player_Hit">
 					<IncludedMemoryFiles>
 						<File Id="176878222" Language="SFX">
 							<ShortName>Barks.wav</ShortName>
@@ -407,7 +418,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="12010446" Name="UI_Button_Press" ObjectPath="\Events\Default Work Unit\General\UI_Button_Press" DurationType="OneShot" DurationMin="2.672696" DurationMax="2.672696">
+				<Event Id="12010446" Name="UI_Button_Press" ObjectPath="\Events\Default Work Unit\General\UI_Button_Press">
 					<IncludedMemoryFiles>
 						<File Id="933698646" Language="SFX">
 							<ShortName>UI_Button_Press.wav</ShortName>
@@ -428,8 +439,16 @@
 					<States/>
 				</StateGroup>
 			</StateGroups>
+			<SwitchGroups>
+				<SwitchGroup Id="1975356116" Name="Heat_Level" ObjectPath="\Switches\Default Work Unit\Heat_Level" GUID="{2268FE1C-C934-45B7-8DF6-427B798C4A0B}">
+					<Switches>
+						<Switch Id="4248742144" Name="Nothing" ObjectPath="\Switches\Default Work Unit\Heat_Level\Nothing" GUID="{5E7A419F-E285-44ED-BA2C-735FB23A0295}"/>
+						<Switch Id="4191063435" Name="Something" ObjectPath="\Switches\Default Work Unit\Heat_Level\Something" GUID="{432BE9D0-A3C1-4E9E-837B-5C25AD7B152B}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX" Hash="2595209854">
+		<SoundBank Id="1355168291" Language="SFX" Hash="2529305909">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>

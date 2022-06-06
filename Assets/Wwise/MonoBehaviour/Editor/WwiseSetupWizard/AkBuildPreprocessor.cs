@@ -48,7 +48,7 @@ public partial class AkBuildPreprocessor : UnityEditor.Build.IPreprocessBuild, U
 	{
 		if (string.IsNullOrEmpty(platformName))
 		{
-			UnityEngine.Debug.LogErrorFormat("WwiseUnity: Could not determine platform name for <{0}> platform", platformName);
+			UnityEngine.Debug.LogWarningFormat("WwiseUnity: Could not determine platform name for <{0}> platform", platformName);
 			return false;
 		}
 
@@ -65,7 +65,7 @@ public partial class AkBuildPreprocessor : UnityEditor.Build.IPreprocessBuild, U
 		if (!AkUtilities.DirectoryCopy(sourceFolder, destinationFolder, true))
 		{
 			destinationFolder = null;
-			UnityEngine.Debug.LogErrorFormat("WwiseUnity: Could not copy SoundBank folder for <{0}> platform", platformName);
+			UnityEngine.Debug.LogWarningFormat("WwiseUnity: Could not copy SoundBank folder for <{0}> platform", platformName);
 			return false;
 		}
 
@@ -91,7 +91,7 @@ public partial class AkBuildPreprocessor : UnityEditor.Build.IPreprocessBuild, U
 			var platformName = GetPlatformName(target);
 			if (!CopySoundbanks(AkWwiseEditorSettings.Instance.GenerateSoundBanksAsPreBuildStep, platformName, ref destinationSoundBankFolder))
 			{
-				UnityEngine.Debug.LogErrorFormat("WwiseUnity: SoundBank folder has not been copied for <{0}> target at <{1}>. This will likely result in a build without sound!!!", target, path);
+				UnityEngine.Debug.LogWarningFormat("WwiseUnity: SoundBank folder has not been copied for <{0}> target at <{1}>. This will likely result in a build without sound!!!", target, path);
 			}
 		}
 #endif

@@ -2,6 +2,8 @@
 <PluginInfo Project="Death To Love Wwise" Platform="Mac" BasePlatform="Mac">
 	<Plugins>
 		<Plugin Name="Wwise Silence" ID="6619138" DLL="AkSilenceGenerator" StaticLib="AkSilenceSource"/>
+		<Plugin Name="Wwise Flanger" ID="8192003" DLL="AkFlanger" StaticLib="AkFlangerFX"/>
+		<Plugin Name="Wwise Guitar Distortion" ID="8257539" DLL="AkGuitarDistortion" StaticLib="AkGuitarDistortionFX"/>
 		<Plugin Name="System" ID="11403271"/>
 		<Plugin Name="No Output" ID="11862023"/>
 	</Plugins>
