@@ -68,7 +68,7 @@
 	</StreamedFiles>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="133642231" Language="SFX" Hash="3355989579">
+		<SoundBank Id="133642231" Language="SFX" Hash="2555534428">
 			<ObjectPath>\SoundBanks\Default Work Unit\General</ObjectPath>
 			<ShortName>General</ShortName>
 			<Path>General.bnk</Path>
@@ -81,7 +81,7 @@
 						</File>
 						<File Id="761998788" Language="SFX">
 							<ShortName>Guitar Grind.wav</ShortName>
-							<Path>SFX\Guitar Grind_B6F6A951.wem</Path>
+							<Path>SFX\Guitar Grind_5C640F47.wem</Path>
 						</File>
 						<File Id="1032908192" Language="SFX">
 							<ShortName>Guitar Grind.wav</ShortName>
@@ -373,6 +373,9 @@
 					<ActionSetState>
 						<ActionSetStateEntry Id="319258907" Name="Paused" ObjectPath="\States\Default Work Unit\PauseState\Paused"/>
 					</ActionSetState>
+					<ActionSetSwitch>
+						<ActionSetSwitchEntry Id="4248742144" Name="Nothing" ObjectPath="\Switches\Default Work Unit\Heat_Level\Nothing"/>
+					</ActionSetSwitch>
 				</Event>
 				<Event Id="871813740" Name="Player_Hit" ObjectPath="\Events\Default Work Unit\General\Player_Hit">
 					<IncludedMemoryFiles>
@@ -446,9 +449,12 @@
 						<Switch Id="4191063435" Name="Something" ObjectPath="\Switches\Default Work Unit\Heat_Level\Something" GUID="{432BE9D0-A3C1-4E9E-837B-5C25AD7B152B}"/>
 					</Switches>
 				</SwitchGroup>
+				<SwitchGroup Id="4248742144" Name="Nothing" ObjectPath="\Switches\Default Work Unit\Heat_Level\Nothing" GUID="{5E7A419F-E285-44ED-BA2C-735FB23A0295}">
+					<Switches/>
+				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX" Hash="2529305909">
+		<SoundBank Id="1355168291" Language="SFX" Hash="2754879030">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
