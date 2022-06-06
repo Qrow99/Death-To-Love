@@ -9,21 +9,25 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles>
-		<File Id="123842355" Language="SFX">
-			<ShortName>Clean Guitar.wav</ShortName>
-			<Path>SFX\Clean Guitar_834C3208.wem</Path>
-		</File>
 		<File Id="175764684" Language="SFX">
 			<ShortName>beginning synth line.wav</ShortName>
 			<Path>SFX\beginning synth line_834C3208.wem</Path>
 		</File>
+		<File Id="257702748" Language="SFX">
+			<ShortName>Neutral Bass.wav</ShortName>
+			<Path>SFX\Neutral Bass_834C3208.wem</Path>
+		</File>
+		<File Id="365631010" Language="SFX">
+			<ShortName>neutral drumz.wav</ShortName>
+			<Path>SFX\neutral drumz_834C3208.wem</Path>
+		</File>
+		<File Id="437709452" Language="SFX">
+			<ShortName>neutral distorted guitar.wav</ShortName>
+			<Path>SFX\neutral distorted guitar_834C3208.wem</Path>
+		</File>
 		<File Id="475334475" Language="SFX">
 			<ShortName>drums.wav</ShortName>
 			<Path>SFX\drums_834C3208.wem</Path>
-		</File>
-		<File Id="478789002" Language="SFX">
-			<ShortName>drumz.wav</ShortName>
-			<Path>SFX\drumz_834C3208.wem</Path>
 		</File>
 		<File Id="514252976" Language="SFX">
 			<ShortName>main synth.wav</ShortName>
@@ -33,17 +37,13 @@
 			<ShortName>female heys.wav</ShortName>
 			<Path>SFX\female heys_834C3208.wem</Path>
 		</File>
-		<File Id="577505447" Language="SFX">
-			<ShortName>distorted guitar.wav</ShortName>
-			<Path>SFX\distorted guitar_834C3208.wem</Path>
-		</File>
 		<File Id="589103403" Language="SFX">
 			<ShortName>bass1.wav</ShortName>
 			<Path>SFX\bass1_834C3208.wem</Path>
 		</File>
-		<File Id="680721626" Language="SFX">
-			<ShortName>bass guitarz.wav</ShortName>
-			<Path>SFX\bass guitarz_834C3208.wem</Path>
+		<File Id="724107033" Language="SFX">
+			<ShortName>Neutral Clean Guitar.wav</ShortName>
+			<Path>SFX\Neutral Clean Guitar_834C3208.wem</Path>
 		</File>
 		<File Id="727574890" Language="SFX">
 			<ShortName>drumz1.wav</ShortName>
@@ -68,7 +68,7 @@
 	</StreamedFiles>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="133642231" Language="SFX" Hash="2216104031">
+		<SoundBank Id="133642231" Language="SFX" Hash="1851796392">
 			<ObjectPath>\SoundBanks\Default Work Unit\General</ObjectPath>
 			<ShortName>General</ShortName>
 			<Path>General.bnk</Path>
@@ -269,21 +269,21 @@
 				</Event>
 				<Event Id="2005704188" Name="Main_Menu" ObjectPath="\Events\Default Work Unit\General\Main_Menu" DurationType="Infinite">
 					<ReferencedStreamedFiles>
-						<File Id="123842355" Language="SFX">
-							<ShortName>Clean Guitar.wav</ShortName>
-							<Path>SFX\Clean Guitar_834C3208.wem</Path>
+						<File Id="257702748" Language="SFX">
+							<ShortName>Neutral Bass.wav</ShortName>
+							<Path>SFX\Neutral Bass_834C3208.wem</Path>
 						</File>
-						<File Id="478789002" Language="SFX">
-							<ShortName>drumz.wav</ShortName>
-							<Path>SFX\drumz_834C3208.wem</Path>
+						<File Id="365631010" Language="SFX">
+							<ShortName>neutral drumz.wav</ShortName>
+							<Path>SFX\neutral drumz_834C3208.wem</Path>
 						</File>
-						<File Id="577505447" Language="SFX">
-							<ShortName>distorted guitar.wav</ShortName>
-							<Path>SFX\distorted guitar_834C3208.wem</Path>
+						<File Id="437709452" Language="SFX">
+							<ShortName>neutral distorted guitar.wav</ShortName>
+							<Path>SFX\neutral distorted guitar_834C3208.wem</Path>
 						</File>
-						<File Id="680721626" Language="SFX">
-							<ShortName>bass guitarz.wav</ShortName>
-							<Path>SFX\bass guitarz_834C3208.wem</Path>
+						<File Id="724107033" Language="SFX">
+							<ShortName>Neutral Clean Guitar.wav</ShortName>
+							<Path>SFX\Neutral Clean Guitar_834C3208.wem</Path>
 						</File>
 					</ReferencedStreamedFiles>
 					<IncludedMemoryFiles>
