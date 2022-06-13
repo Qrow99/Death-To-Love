@@ -26,4 +26,4 @@ MonoBehaviour:
   slideEffect: {fileID: 5498122311951644183, guid: fc74017bfd7798d4fae43351d5b8b8e4, type: 3}
   animatorController: {fileID: 9100000, guid: 72817153ec25886499b77d36e00604c0, type: 2}
   defaultSprite: {fileID: 8102104611282628659, guid: b13634c38c092d645b21b2bff8fd074a, type: 3}
-  portraitSprite: {fileID: 21300000, guid: 8c2fda79397fc5b42867fcf91070bc38, type: 3}
+  portraitSprite: {fileID: 21300000, guid: 9cf9477b41a70b74984639c3bd6eb32f, type: 3}
