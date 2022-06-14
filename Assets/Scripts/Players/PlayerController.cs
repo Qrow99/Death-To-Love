@@ -261,7 +261,7 @@ public class PlayerController : MonoBehaviour {
     public void OnSlide(InputAction.CallbackContext context) {
         if (_DialogueManager && _DialogueManager.IsDialogueOver() == false)
         {
-            if (context.performed && _canSlide && !_Downed) // Ensures functions only performed once on button press
+            if (context.performed && _canSlide && !_Downed && _canAttack) // Ensures functions only performed once on button press
             {
                 //Debug.Log("Slide");
                 //_playerAnim.SetTrigger("Slide");
