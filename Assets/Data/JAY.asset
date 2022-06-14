@@ -19,7 +19,7 @@ MonoBehaviour:
   lightHitstun: 0.75
   heavyAtkDamage: 3
   heavyHitstun: 1
-  lightAtkCooldown: 1
+  lightAtkCooldown: 1.1
   heavyAtkCooldown: 0.5
   slideCooldown: 3
   hitParticleEmitter: {fileID: 3798439677663074714, guid: 95bece2da63f3e246b09057102589f53, type: 3}

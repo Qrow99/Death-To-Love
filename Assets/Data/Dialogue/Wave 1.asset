@@ -18,7 +18,7 @@ MonoBehaviour:
     speakerImage: {fileID: 21300000, guid: 2ffa54b12887f364c82d3890bf343bb3, type: 3}
   - speaker: Jay
     line: And to good friends!
-    speakerImage: {fileID: 21300000, guid: d285c75ac7aa72b4ea29d6e06184c353, type: 3}
+    speakerImage: {fileID: 21300000, guid: 4b8c07db677f7cb409a5e9f3317f237a, type: 3}
   - speaker: Liz
     line: And many more to come!
     speakerImage: {fileID: 21300000, guid: 2ad59559d76fd834a95bf3c576b3abce, type: 3}
@@ -48,7 +48,7 @@ MonoBehaviour:
     speakerImage: {fileID: 21300000, guid: 3138e396fef97174db1eb9b59cdec3d5, type: 3}
   - speaker: Jay
     line: Yeah! Get away from my friends! I just made a toast to them!
-    speakerImage: {fileID: 21300000, guid: d285c75ac7aa72b4ea29d6e06184c353, type: 3}
+    speakerImage: {fileID: 21300000, guid: 4b8c07db677f7cb409a5e9f3317f237a, type: 3}
   - speaker: Cops
     line: She's being charged with disturbing the peace, and slandering LOVELESS
       Inc. Wanna add resisting arrest to that?

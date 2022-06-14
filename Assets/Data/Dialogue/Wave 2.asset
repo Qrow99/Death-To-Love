@@ -18,11 +18,11 @@ MonoBehaviour:
     speakerImage: {fileID: 21300000, guid: 2ad59559d76fd834a95bf3c576b3abce, type: 3}
   - speaker: Jay
     line: They took her, those bastards! What do we do now?
-    speakerImage: {fileID: 21300000, guid: d285c75ac7aa72b4ea29d6e06184c353, type: 3}
+    speakerImage: {fileID: 21300000, guid: 4b8c07db677f7cb409a5e9f3317f237a, type: 3}
   - speaker: Liz
     line: We get my girlfriend back, that's what. C'mon, I know where they're taking
       her.
     speakerImage: {fileID: 21300000, guid: 2ad59559d76fd834a95bf3c576b3abce, type: 3}
   - speaker: Jay
     line: Liz look out, more cops!
-    speakerImage: {fileID: 21300000, guid: d285c75ac7aa72b4ea29d6e06184c353, type: 3}
+    speakerImage: {fileID: 21300000, guid: 4b8c07db677f7cb409a5e9f3317f237a, type: 3}
