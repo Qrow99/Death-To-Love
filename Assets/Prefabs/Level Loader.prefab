@@ -147,6 +147,7 @@ GameObject:
   - component: {fileID: 6556553204758099328}
   - component: {fileID: 6556553204758099331}
   - component: {fileID: 6556553204758099454}
+  - component: {fileID: 912821506}
   m_Layer: 0
   m_Name: Crossfade
   m_TagString: Untagged
@@ -254,3 +255,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &912821506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6556553204758099333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6c85fba1b099f642a4a6769405c4b31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _dialogueData: {fileID: 11400000, guid: 8f97221a296f0414595af18d5713ded4, type: 2}
+  _dialogueManager: {fileID: 0}
+  StartSceneWithDialogue: 1
