@@ -22,6 +22,8 @@ public class PlayerController : MonoBehaviour {
     private float InvincibilitySeconds = 1f;
     [SerializeField]
     private float InvincibilityFlickerRate = 0.2f;
+    [SerializeField]
+    private float _knockback;
     private float InvincibilityflickerTimer;
 
     [SerializeField]
@@ -82,9 +84,6 @@ public class PlayerController : MonoBehaviour {
     private DialogueManager _DialogueManager;
 
     
-
-
-
     private Animator _playerAnim;
     private SpriteRenderer _playerSpriteRenderer;
     private Vector2 _movementInput = Vector2.zero;
@@ -480,14 +479,19 @@ public class PlayerController : MonoBehaviour {
         for (int i = 0; i < destructablestoHit.Length; i++)
         {
             AkSoundEngine.PostEvent("Enemy_Hit", gameObject);
-            destructablestoHit[i].GetComponent<EnemyAgent>().TakeDamage(_lightDamage, _lightHitstun);
+            EnemyAgent Agent = destructablestoHit[i].GetComponent<EnemyAgent>();
+            if(Agent)
+            {
+                Debug.Log("Here");
+                Agent.TakeDamage(_lightDamage, _lightHitstun, this.transform.position, true, _knockback);
+            }
             Instantiate(_hitParticleEmitter, destructablestoHit[i].gameObject.transform.position + new Vector3(0f, 1f, 0f), Quaternion.identity);
         }
 
         for (int i = 0; i < enemiesToHit.Length; i++)
         {
             AkSoundEngine.PostEvent("Enemy_Hit", gameObject);
-            enemiesToHit[i].GetComponent<EnemyAgent>().TakeDamage(_lightDamage, _lightHitstun);
+            enemiesToHit[i].GetComponent<EnemyAgent>().TakeDamage(_lightDamage, _lightHitstun, this.transform.position, true, _knockback);
             Instantiate(_hitParticleEmitter, enemiesToHit[i].gameObject.transform.position + new Vector3(0f, 1f, 0f), Quaternion.identity);
             _heatManager.increaseHeat();
         }

@@ -22,7 +22,7 @@ public class Barricade : EnemyAgent
     {
     }
 
-    public override void TakeDamage(int damage, float hitstun = 0f, bool knockback = false)
+    public virtual void TakeDamage(int damage, float hitstun = 0f, bool knockback = false)
     {
         Debug.Log("Barrier took damage");
         Health -= damage;

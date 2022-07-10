@@ -31,7 +31,7 @@ public class Lightning : MonoBehaviour
         if (other.gameObject.tag == "Enemy")
         {
             enemy = other.gameObject.GetComponent<EnemyAgent>();
-            enemy.TakeDamage(damage, hitstun, false);
+            enemy.TakeDamage(damage, hitstun, this.transform.position, false);
             HM.increaseHeat();
         }
     }

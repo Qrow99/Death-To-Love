@@ -1044,6 +1044,7 @@ MonoBehaviour:
   Invincible: 0
   InvincibilitySeconds: 1
   InvincibilityFlickerRate: 0.01
+  _knockback: 3
   _attackPos: {fileID: 56146107}
   _enemyLayer:
     serializedVersion: 2

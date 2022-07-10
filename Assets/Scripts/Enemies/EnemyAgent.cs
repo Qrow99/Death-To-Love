@@ -63,6 +63,8 @@ public class EnemyAgent : MonoBehaviour
 
     private DialogueManager _DialogueManager;
 
+    private Rigidbody2D _RB;
+
     // Start is called before the first frame update
     virtual protected void Start()
     {
@@ -105,6 +107,8 @@ public class EnemyAgent : MonoBehaviour
         //in the tutorial used them 
         agent.updateRotation = false;
         agent.updateUpAxis = false;
+
+        _RB = this.GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
@@ -238,19 +242,19 @@ public class EnemyAgent : MonoBehaviour
     }
 
     // Handles incoming attacks
-    public virtual void TakeDamage(int damage, float hitstun, bool knockback = true)
+    public virtual void TakeDamage(int damage, float hitstun, Vector3 attackerPos, bool knockback = true, float knockbackForce = 0f)
     {
         //Debug.Log(gameObject.name + " took " + damage + " damage.");
         Health -= damage; 
         if(knockback)
         {
-            if (facingRight)
+            if (knockback)
             {
-                knockbackVector = new Vector3(this.transform.position.x, 0f, 0f)- new Vector3(knockbackDist, 0f, 0f);
-            }
-            else
-            {
-                knockbackVector = new Vector3(this.transform.position.x, 0f, 0f) + new Vector3(knockbackDist, 0f, 0f);
+                Vector2 forceVector = (this.transform.position - attackerPos).normalized * knockbackForce;
+                if(_RB)
+                {
+                    _RB.AddForce(forceVector);
+                }
             }
         }
         else

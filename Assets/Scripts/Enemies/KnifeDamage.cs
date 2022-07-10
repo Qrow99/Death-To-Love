@@ -74,7 +74,7 @@ public class KnifeDamage : MonoBehaviour
         else if (other.tag == "Enemy" && hostile == false)
         {
             EnemyAgent enemy = other.gameObject.GetComponent<EnemyAgent>();
-            enemy.TakeDamage(Damage, 0f, true);
+            enemy.TakeDamage(Damage, 0f, this.transform.position, true, 1f);
             Destroy(this.gameObject);
         }
     }
